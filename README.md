@@ -232,7 +232,7 @@ Process List
 ```
 
 Les premiers processus ne montrent rien d'évident.
-Bien qu'on peut remarquer 4 processus `vlc_updater.exe` simultanés.  Weird..
+Bien qu'on remarque 4 processus `vlc_updater.exe` simultanés.  Weird..
 Quand la calculatrice s'ouvre, le processus `Calculator.exe` est présent mais on ne peut rien en tirer.
 Quand le ransomware lance sa page crypt.html, le processus `MicrosoftEdge.exe` est présent mais là non plus, difficile d'aller plus loin.
 
@@ -272,4 +272,4 @@ Après avoir forcé notre entrée dans la machine, on constate bien que la machi
 Cependant, nous n'avons pas réussi à déterminer les causes puisque le pirate/malware semble avoir bien caché ses traces.
 > Red Team 1 - 0 Blue Team
 
-A charge de révenche.
+A charge de révanche.
