@@ -11,17 +11,17 @@ Nos objectifs sont:
 ## Reconnaissance
 ### Ip de la machine
 On démarre notre machine virtuelle et on lance un `netdiscover -r 192.168.1.0/24`
-Une machine sort du lot car une nouvelle IP a été assignée dans le réseau local.
+Une machine sort du lot car une nouvelle IP a été assignée dans le réseau local.  
 Son IP : 192.168.1.16
 
 ```export BOX_IP=192.168.1.16```
 
 ### Nmap
 On lance un nmap pour analyser notre machine depuis l'extérieur.
-`nmap -A -T4 -Pn --script default,vuln -A -oN nmap-scan.txt $BOX_IP`
+`nmap -A -T4 -Pn --script default,vuln -A -oN nmap-scan.txt $BOX_IP`\
 Son nom : DESKTOP-8DK0CQ3
 
-**Résultats** : Rien. 
+**Résultats** : Rien.\ 
 Rien d'intéressant. Dommage! Adieu EternalBlue, SMBGhost, DéjaBlue..
 
 ## Découverte du mot de passe
@@ -41,7 +41,7 @@ On peut désormais saisir le nouveau mot de passe ```myles``` et  TADAAAAAM ... 
 
 Tutorial : [Vidéo Youtube](https://www.youtube.com/watch?v=OKx0zwKDimg&ab_channel=ProcessusThief)
 
-## Comportement anormaux
+## Comportements anormaux
 Après quelques clics par ci par là, on voit des documents qui pourraient sembler intéressants pour la suite de notre analyse. Le temps de tourner la tête pour me servir une bière, je vois plusieurs comportements anormaux :
 
  - [ ] Ouverture de la calculatrice sans action de l'utilisateur
@@ -240,8 +240,8 @@ Ces 2 processus ont comme parent le processus 876 --> svchost.exe
 
 > Selon Microsoft, svchost.exe est un processus générique (generic host process ) pour les services exécutés à partir de bibliothèques dynamiques.
 
-
-On analyse les requêtes réseaux :
+### Réseau
+On analyse les connexions réseaux :
 ```
 Active Connections
 
@@ -272,4 +272,4 @@ Après avoir forcé notre entrée dans la machine, on constate bien que la machi
 Cependant, nous n'avons pas réussi à déterminer les causes puisque le pirate/malware semble avoir bien caché ses traces.
 > Red Team 1 - 0 Blue Team
 
-A charge de révanche.
+A charge de revanche.
