@@ -21,7 +21,7 @@ On lance un nmap pour analyser notre machine depuis l'extérieur.
 `nmap -A -T4 -Pn --script default,vuln -A -oN nmap-scan.txt $BOX_IP`\
 Son nom : DESKTOP-8DK0CQ3
 
-**Résultats** : Rien.\ 
+**Résultats** : Rien.\
 Rien d'intéressant. Dommage! Adieu EternalBlue, SMBGhost, DéjaBlue..
 
 ## Découverte du mot de passe
