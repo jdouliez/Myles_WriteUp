@@ -8,7 +8,7 @@ Nos objectifs sont:
 * Trouver les comportements anormaux de la machine
 * Déterminer l'historique et le contexte de cette machine
 
-Télécharment de la VM :
+Téléchargement de la VM :
 * [Lien 1](https://mega.nz/file/E5oSBQqR#VNfcMcWjM4x97UKojK3v0h5FsvlwfFJWKcH_Ce3HXrY)
 * [Lien 2](https://onedrive.live.com/?authkey=%21ALw5CkIpFSnSy3o&cid=5DDDE35AAC7CC588&id=5DDDE35AAC7CC588%2166697&parId=5DDDE35AAC7CC588%2166696&action=locate)
 
@@ -732,7 +732,7 @@ A priori, c'est bien ce fichier stage2.py qui est exécuté au démarrage.
 Regardons d'un peu plus près..
 
 ```
-S C:\WinCache> type C:\Users\myles\Pictures\wallpaper.jpeg:stage2.py
+PS C:\WinCache> type C:\Users\myles\Pictures\wallpaper.jpeg:stage2.py
 type C:\Users\myles\Pictures\wallpaper.jpeg:stage2.py
 import base64
 import codecs
