@@ -8,6 +8,10 @@ Nos objectifs sont:
 * Trouver les comportements anormaux de la machine
 * Déterminer l'historique et le contexte de cette machine
 
+Télécharment de la VM :
+* [Lien 1](https://mega.nz/file/E5oSBQqR#VNfcMcWjM4x97UKojK3v0h5FsvlwfFJWKcH_Ce3HXrY)
+* [Lien 2](https://onedrive.live.com/?authkey=%21ALw5CkIpFSnSy3o&cid=5DDDE35AAC7CC588&id=5DDDE35AAC7CC588%2166697&parId=5DDDE35AAC7CC588%2166696&action=locate)
+
 ## Reconnaissance
 ### Ip de la machine
 On démarre notre machine virtuelle et on lance un `netdiscover -r 192.168.1.0/24`
